@@ -1,0 +1,32 @@
+Most recent commit by 60140788+budithikth@users.noreply.github.com at master branch of budithikth/DD2480_CIserver
+
+BUILD STATUS:
+
+easyTest.java build successful 
+HelloWorld.java build successful 
+HelloWorld.java build successful 
+ErrorTest.java build successful 
+HelloWorldTest.java build successful 
+ContinuousIntegrationServer.java build successful 
+SendMail.java build successful 
+
+TEST STATUS:
+
+= = = = = easyTest = = = = =
+Hello World!
+- - - Test Passed - - -
+
+= = = = = ErrorTest = = = = =
+Error in program: 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at ErrorTest.main(ErrorTest.java:4)
+- - - Test Failed - - -
+
+= = = = = HelloWorldTest = = = = =
+Hello World!
+1+1 is 2, it will never be 3
+Test successful
+Error in program: 
+java.lang.Exception: 1+1 is 2, it will never be 3
+	at HelloWorldTest.main(HelloWorldTest.java:8)
+- - - Test Passed - - -
